@@ -1,2 +1,3 @@
 rootProject.name = "opensdk-bkash"
-include("lib")
+include(":bkash")
+project(":bkash").projectDir = file("lib/")
