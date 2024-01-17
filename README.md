@@ -29,6 +29,26 @@ Implementation of [BKash PaymentGateway Developer API v1.2.0-beta](https://devel
 - Intra-Account Transfer [#Documentation](https://developer.bka.sh/reference/intraaccounttransferusingpost)
 - Search Transaction Details [#Documentation](https://developer.bka.sh/reference/searchtransactionusingget)
 
+### Installation
+
+*Maven*
+
+```xml
+<dependency>
+    <groupId>io.github.eendroroy</groupId>
+    <artifactId>opensdk-bkash</artifactId>
+    <version>0.0.1-beta2</version>
+</dependency>
+```
+
+*Gradle*
+
+```groovy
+dependencies {
+    implementation("io.github.eendroroy:opensdk-bkash:0.0.1-beta2")
+}
+```
+
 ### Usage
 
 #### **Configuration**

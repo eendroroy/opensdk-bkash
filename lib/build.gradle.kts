@@ -1,9 +1,11 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     `java-library`
     `maven-publish`
     signing
 
-    kotlin("jvm") version "1.9.22"
+    kotlin("jvm") version "1.6.0"
 
     id("org.jetbrains.dokka") version "1.9.10"
 }
@@ -13,7 +15,7 @@ repositories {
 }
 
 group = "io.github.eendroroy"
-version = "0.0.1-beta1"
+version = "0.0.1-beta2"
 description = "SDK for BKash APIs"
 
 val isReleaseVersion = !"$version".endsWith("SNAPSHOT")
@@ -34,7 +36,12 @@ java {
     withJavadocJar()
 }
 
-kotlin { jvmToolchain(8) }
+tasks.withType<KotlinCompile> {
+    kotlinOptions {
+        freeCompilerArgs += "-Xjsr305=strict"
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
 
 tasks.named<Jar>("javadocJar") {
     from(tasks.named("dokkaJavadoc"))
