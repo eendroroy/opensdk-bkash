@@ -15,8 +15,8 @@ repositories {
 }
 
 group = "io.github.eendroroy"
-version = "0.0.1-beta2"
-description = "SDK for BKash APIs"
+version = "0.0.1-beta3"
+description = "SDK for Bkash APIs"
 
 val isReleaseVersion = !"$version".endsWith("SNAPSHOT")
 
