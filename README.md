@@ -1,17 +1,5 @@
 # BKash SDK
 
-![Java CI with Gradle](https://github.com/eendroroy/opensdk-bkash/workflows/Tests/badge.svg)
-[![GitHub tag](https://img.shields.io/github/tag/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/tags)
-
-[![Contributors](https://img.shields.io/github/contributors/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/graphs/contributors)
-[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/eendroroy/opensdk-bkash/master.svg)](https://github.com/eendroroy/opensdk-bkash)
-[![license](https://img.shields.io/github/license/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/pulls)
-[![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/eendroroy/opensdk-bkash.svg)](https://github.com/eendroroy/opensdk-bkash/pulls?q=is%3Apr+is%3Aclosed)
-
-
 Implementation of [BKash PaymentGateway Developer API v1.2.0-beta](https://developer.bka.sh/reference)
 
 *TOKEN API*
